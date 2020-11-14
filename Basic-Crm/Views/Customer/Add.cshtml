@@ -1,0 +1,68 @@
+﻿@model Entities.Customer;
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Add", "Customer", FormMethod.Post))
+{
+    <div class="col-md-12">
+        <div class="col-sm-6">
+            <label>Name</label>
+            @Html.TextBoxFor(m => m.Name, new { @class = "form form-control input-sm" })
+            @*@Html.ValidationMessageFor(m => m.Name)*@
+            <br />
+        </div>
+
+        <div class="col-md-6">
+            <label>Soyad:</label>
+            @Html.TextBoxFor(m => m.Surname, new { @class = "form form-control input-sm" })
+            @*@Html.ValidationMessageFor(m => m.Surname)*@
+            <br />
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-sm-4">
+            <label>Gender</label>
+            <div class="radio">
+                <label>@Html.RadioButtonFor(m => m.Gender, true)Kadın</label>
+                <label>@Html.RadioButtonFor(m => m.Gender, false)Erkek</label>
+                @*@Html.ValidationMessageFor(m => m.Gender)*@
+            </div>
+            <br />
+        </div>
+
+        <div class="col-md-4">
+            <label>Phone</label>
+            @Html.TextBoxFor(m => m.Phone, new { @class = "form form-control input-sm" })
+            @*@Html.ValidationMessageFor(m => m.Phone)*@
+            <br />
+        </div>
+
+        <div class="col-md-4">
+            <label>Address</label>
+            @Html.TextBoxFor(m => m.Adress, new { @class = "form form-control input-sm" })
+            @*@Html.ValidationMessageFor(m => m.Adress)*@
+            <br />
+        </div>
+
+    </div>
+
+    <div class="col-md-12">
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4">
+            <button type="submit" class="btn btn-info btn-block">Save</button>
+
+
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+        @Html.HiddenFor(m => m.Id)
+        @Html.HiddenFor(m => m.UserSession)
+
+    </div>
+
+}

@@ -1,0 +1,12 @@
+C:\Users\gb141\source\repos\Basic-Crm\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\gb141\source\repos\Basic-Crm\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\gb141\source\repos\Basic-Crm\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\gb141\source\repos\Basic-Crm\DAL\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\gb141\source\repos\Basic-Crm\DAL\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\gb141\source\repos\Basic-Crm\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
