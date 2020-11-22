@@ -1,5 +1,6 @@
 ﻿using DAL;
 using Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,8 @@ namespace BL
 
         public Customer GetCustomerById(int id)
         {
+            //return _context.Customers.FromSqlRaw<Customer>("spGetCustomerById{0}", id).ToList().FirstOrDefault();
+
             var customer = _context.Customers.Find(id);
             return customer;
         }
@@ -45,5 +48,7 @@ namespace BL
 
 
         //}
+       
+
     }
 }

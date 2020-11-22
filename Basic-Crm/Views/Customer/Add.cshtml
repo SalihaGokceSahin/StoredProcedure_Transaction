@@ -4,65 +4,97 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@using (Html.BeginForm("Add", "Customer", FormMethod.Post))
-{
-    <div class="col-md-12">
-        <div class="col-sm-6">
-            <label>Name</label>
-            @Html.TextBoxFor(m => m.Name, new { @class = "form form-control input-sm" })
-            @*@Html.ValidationMessageFor(m => m.Name)*@
-            <br />
-        </div>
-
-        <div class="col-md-6">
-            <label>Soyad:</label>
-            @Html.TextBoxFor(m => m.Surname, new { @class = "form form-control input-sm" })
-            @*@Html.ValidationMessageFor(m => m.Surname)*@
-            <br />
-        </div>
-    </div>
-    <div class="col-md-12">
-        <div class="col-sm-4">
-            <label>Gender</label>
-            <div class="radio">
-                <label>@Html.RadioButtonFor(m => m.Gender, true)Kadın</label>
-                <label>@Html.RadioButtonFor(m => m.Gender, false)Erkek</label>
-                @*@Html.ValidationMessageFor(m => m.Gender)*@
+<body>
+    @using (Html.BeginForm("Add", "Customer", FormMethod.Post))
+    {
+        <div class="col-md-12">
+            <div class="col-sm-6">
+                <label><strong>Name</strong></label>
+                @Html.TextBoxFor(m => m.Name, new { @class = "form form-control input-sm" })
+                <br />
             </div>
-            <br />
+
+            <div class="col-md-6">
+                <label><strong>Surname</strong></label>
+                @Html.TextBoxFor(m => m.Surname, new { @class = "form form-control input-sm" })
+                <br />
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-sm-4">
+                <label><strong>Gender</strong></label>
+                <div class="radio">
+                    <label>@Html.RadioButtonFor(m => m.Gender, true)Female</label>
+                    <label>@Html.RadioButtonFor(m => m.Gender, false)Male</label>
+                </div>
+                <br />
+            </div>
+
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <label><strong>Phone</strong></label>
+                @Html.TextBoxFor(m => m.Phone, new { @class = "form form-control input-sm" })
+                <br />
+            </div>
+
+            <div class="col-md-6">
+                <label><strong>Address</strong></label>
+                @Html.TextBoxFor(m => m.Adress, new { @class = "form form-control input-sm" })
+                <br />
+            </div>
         </div>
 
-        <div class="col-md-4">
-            <label>Phone</label>
-            @Html.TextBoxFor(m => m.Phone, new { @class = "form form-control input-sm" })
-            @*@Html.ValidationMessageFor(m => m.Phone)*@
-            <br />
+        <div class="col-md-12">
+
+            <div class="col-sm-6">
+                <button type="submit" class="btn btn-info btn-block btn-lg">Save</button>
+            </div>
+            @Html.HiddenFor(m => m.Id)
+            @Html.HiddenFor(m => m.UserSession)
+
         </div>
 
-        <div class="col-md-4">
-            <label>Address</label>
-            @Html.TextBoxFor(m => m.Adress, new { @class = "form form-control input-sm" })
-            @*@Html.ValidationMessageFor(m => m.Adress)*@
-            <br />
-        </div>
+    }
 
+</body>
+<!--<body>
+    <div class="form-group">
+        <form action="/Customer/Add" method="post" runat="server">
+
+            <div class="form-group">-->
+@*<div class="input-group">*@
+@*<label>Name</label>*@
+<!--<input type="text" class="form-control" id="Name" name="Name" placeholder="Please insert your name" required="required">-->
+@*</div>*@
+<!--</div>
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="Surname" name="Surname" placeholder="Please insert your surname" required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <label>Female</label>
+                    <input type="radio" id="Gender" name="Gender" value="true" />
+                    <br />
+                    <label>Male</label>
+                    <input type="radio" id="Gender" name="Gender" value="false" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="Phone" name="Phone" placeholder="Please insert your phone number" required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="Adress" name="Adress" placeholder="Please insert your address" required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="SaveButton" name="SaveButton" class="btn btn-block btn-info btn-lg">Save</button>
+            </div>
+        </form>
     </div>
-
-    <div class="col-md-12">
-        <div class="col-sm-4">
-
-        </div>
-        <div class="col-sm-4">
-            <button type="submit" class="btn btn-info btn-block">Save</button>
-
-
-        </div>
-        <div class="col-sm-4">
-
-        </div>
-        @Html.HiddenFor(m => m.Id)
-        @Html.HiddenFor(m => m.UserSession)
-
-    </div>
-
-}
+</body>-->

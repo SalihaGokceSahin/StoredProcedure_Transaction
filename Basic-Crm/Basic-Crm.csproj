@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Basic_Crm</RootNamespace>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <OutputType>WinExe</OutputType>
+    <UserSecretsId>1c5ee8f3-cad1-4e64-9a5b-db3fa8ccd854</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

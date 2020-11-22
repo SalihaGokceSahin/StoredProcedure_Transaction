@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMZ/MphxDl0mlHi5phg2YLQAAAAACAAAAAAAQZgAAAAEAACAAAAA3SiNOpfc6M8kM6Kz7mSVIB9nZ0iIP//ljtkn5MCDG9AAAAAAOgAAAAAIAACAAAAAsf+ptkcaj/fV3Ewy8dtUCVPIOxtHjRuWdtVQAQxv+PyAAAAAHl0gMoby+zLVUqZKRH3sOac55cEwH8X28ESr+CdZ/oUAAAADOuUroNN93vVXf2yZUC3SOpCZSHpvczTtKnbSdP0lkLWdVqG2ILf9SV3qtXWmg/QJEG+ucd+ilxJB8VlyjZq85</EncryptedPassword>
+    <_PublishTargetUrl>ftp://66.85.73.149/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AuthDbContextConnection">
+      <Value>workstation id=Customer.mssql.somee.com%3bpacket size=4096%3buser id=Saliha_SQLLogin_1%3bpwd=iwzfu7l79y%3bdata source=Customer.mssql.somee.com%3bpersist security info=False%3binitial catalog=Customer</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DbContextConnection">
+      <Value>workstation id=Customer.mssql.somee.com%3bpacket size=4096%3buser id=Saliha_SQLLogin_1%3bpwd=iwzfu7l79y%3bdata source=Customer.mssql.somee.com%3bpersist security info=False%3binitial catalog=Customer</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Basic_Crm.Data.AuthDbContext">
+      <Value>workstation id=Customer.mssql.somee.com%3bpacket size=4096%3buser id=Saliha_SQLLogin_1%3bpwd=iwzfu7l79y%3bdata source=Customer.mssql.somee.com%3bpersist security info=False%3binitial catalog=Customer</Value>
+    </EFMigrations>
+    <EFMigrations Include="DAL.DatabaseContext">
+      <Value>workstation id=Customer.mssql.somee.com%3bpacket size=4096%3buser id=Saliha_SQLLogin_1%3bpwd=iwzfu7l79y%3bdata source=Customer.mssql.somee.com%3bpersist security info=False%3binitial catalog=Customer</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

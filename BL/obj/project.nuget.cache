@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3l4mEFKqUNddRxxWSQbpBafNfCdhekXm45s/e1v2bbHYku2/ovC4Yaud4XmfeXE2BKH6DhltKV13d9hwiOUP8Q==",
+  "dgSpecHash": "iBG2opPEGSKz9HWN4EQ0irSazI85nQuV1hNTyA2Tg2kQF50yUXOr7rY9VbNhbTrQQ7wPVHlT2kZLhXdh5Dp/0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.9\\microsoft.entityframeworkcore.3.1.9.nupkg.sha512",
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.9\\microsoft.entityframeworkcore.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.9\\microsoft.entityframeworkcore.analyzers.3.1.9.nupkg.sha512",
+    "C:\\Users\\gb141\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.9\\microsoft.entityframeworkcore.relational.3.1.9.nupkg.sha512",
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.9\\microsoft.extensions.caching.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.9\\microsoft.extensions.caching.memory.3.1.9.nupkg.sha512",
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",

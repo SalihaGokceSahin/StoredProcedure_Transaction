@@ -1,0 +1,14 @@
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\BL.deps.json
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\BL.dll
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\BL.pdb
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\DAL.dll
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\Entities.dll
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\DAL.pdb
+C:\Users\gb141\source\repos\Basic-Crm\BL\bin\Release\netcoreapp3.1\Entities.pdb
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.csproj.CopyComplete
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.dll
+C:\Users\gb141\source\repos\Basic-Crm\BL\obj\Release\netcoreapp3.1\BL.pdb

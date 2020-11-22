@@ -152,8 +152,6 @@ C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\bin\Debug\netcoreapp3.1\Basic-Cr
 C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\obj\Debug\netcoreapp3.1\Basic-Crm.csproj.CoreCompileInputs.cache
-C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\obj\Debug\netcoreapp3.1\Basic-Crm.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\obj\Debug\netcoreapp3.1\Basic-Crm.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
 C:\Users\gb141\source\repos\Basic-Crm\Basic-Crm\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs

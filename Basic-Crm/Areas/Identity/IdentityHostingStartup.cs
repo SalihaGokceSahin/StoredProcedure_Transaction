@@ -18,7 +18,7 @@ namespace Basic_Crm.Areas.Identity
                 services.AddDbContext<AuthDbContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("AuthDbContextConnection")));
-
+                
                 services.AddDefaultIdentity<IdentityUser>(options => {
                     options.SignIn.RequireConfirmedAccount = false;
                     options.Password.RequireUppercase = false;
