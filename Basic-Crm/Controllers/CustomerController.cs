@@ -62,11 +62,11 @@ namespace Basic_Crm.Controllers
             var customerList = customer.Where(x => x.UserSession == User.Identity.Name).ToList();
             return View(customerList);
         }
-        public async Task<IActionResult> Delete(int id)
+        public ActionResult Delete(int id)
         {
             var customer = _customerRepository.GetCustomerById(id);
             _customerRepository.Delete(customer);
-            return RedirectToAction("GetCustomers");
+            return RedirectToAction("getcustomers","customer");
         }
         public async Task<IActionResult> GetCustomerById(int id)
         {
