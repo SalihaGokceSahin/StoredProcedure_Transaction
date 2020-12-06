@@ -1,5 +1,6 @@
 ﻿using System;
 using Basic_Crm.Data;
+using DAL;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -18,7 +19,8 @@ namespace Basic_Crm.Areas.Identity
                 services.AddDbContext<AuthDbContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("AuthDbContextConnection")));
-                
+
+
                 services.AddDefaultIdentity<IdentityUser>(options => {
                     options.SignIn.RequireConfirmedAccount = false;
                     options.Password.RequireUppercase = false;

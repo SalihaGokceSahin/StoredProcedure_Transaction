@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Basic_Crm.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
-    [Migration("20201111172158_firstMigration")]
-    partial class firstMigration
+    [Migration("20201206161217_AuthDbContextMigration")]
+    partial class AuthDbContextMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

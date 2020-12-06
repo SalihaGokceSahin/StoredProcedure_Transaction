@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Basic_Crm.Migrations.Database
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20201114112822_spGetCustomerById")]
-    partial class spGetCustomerById
+    [Migration("20201206161502_spGetCustomers")]
+    partial class spGetCustomers
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

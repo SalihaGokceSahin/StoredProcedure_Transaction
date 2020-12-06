@@ -7,6 +7,7 @@
 <h3>Customer List</h3>
 <table class=" table table-sm table-hover">
     <tr>
+        <th><label>Id</label></th>
         <th><label>Name</label></th>
         <th><label>Surname</label></th>
         <th><label>Gender</label></th>
@@ -19,6 +20,7 @@
     @foreach (var item in Model)
     {
 <tr>
+    <td>@item.Id</td>
     <td>@item.Name</td>
     <td>@item.Surname</td>
     <td>@(item.Gender==true?"Female":"Male")</td>

@@ -14,13 +14,11 @@ namespace Basic_Crm.Controllers
     [Authorize]
     public class CustomerController : Controller
     {
-        AuthDbContext _authDbContext;
         ICustomerRepository _customerRepository;
         DatabaseContext _DatabaseContext;
-        public CustomerController(ICustomerRepository customerRepository,AuthDbContext authDbContext, DatabaseContext databaseContext)
+        public CustomerController(ICustomerRepository customerRepository, DatabaseContext databaseContext)
         {
             _customerRepository = customerRepository;
-            _authDbContext = authDbContext;
             _DatabaseContext = databaseContext;
         }
         public ActionResult Add(Customer customer)
@@ -33,7 +31,8 @@ namespace Basic_Crm.Controllers
             }
             if (customer.Id == 0 && customer.Name != null)
             {
-                _DatabaseContext.Add(customer);
+                //_DatabaseContext.Add(customer);
+                _customerRepository.Create(customer);
             }
             else
             {
@@ -62,11 +61,14 @@ namespace Basic_Crm.Controllers
             var customerList = customer.Where(x => x.UserSession == User.Identity.Name).ToList();
             return View(customerList);
         }
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int Id)
         {
-            var customer = _customerRepository.GetCustomerById(id);
+            var customer = _customerRepository.GetCustomerById(Id);
             _customerRepository.Delete(customer);
-            return RedirectToAction("getcustomers","customer");
+            _DatabaseContext.SaveChanges();
+            _customerRepository.GetCustomers();
+            return RedirectToAction("getcustomers", "customer");
+
         }
         public async Task<IActionResult> GetCustomerById(int id)
         {
@@ -75,9 +77,9 @@ namespace Basic_Crm.Controllers
             //var model = _customerRepository.GetCustomerById(id);
             //return View("Add", model);
         }
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int Id)
         {
-            var model = _customerRepository.GetCustomerById(id);
+            var model = _customerRepository.GetCustomerById(Id);
             if (model == null)
             {
                 NotFound();

@@ -2,7 +2,7 @@
 
 namespace Basic_Crm.Migrations.Database
 {
-    public partial class SecondMigration : Migration
+    public partial class DatabaseContextMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,7 +16,8 @@ namespace Basic_Crm.Migrations.Database
                     Surname = table.Column<string>(nullable: false),
                     Gender = table.Column<bool>(nullable: false),
                     Phone = table.Column<string>(nullable: true),
-                    Adress = table.Column<string>(nullable: true)
+                    Adress = table.Column<string>(nullable: true),
+                    UserSession = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

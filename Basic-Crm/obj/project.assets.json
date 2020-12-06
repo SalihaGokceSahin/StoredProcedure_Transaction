@@ -8872,11 +8872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Basic-Crm\\Basic-Crm.csproj",
+      "projectUniqueName": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Basic-Crm\\Basic-Crm.csproj",
       "projectName": "Basic-Crm",
-      "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Basic-Crm\\Basic-Crm.csproj",
+      "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Basic-Crm\\Basic-Crm.csproj",
       "packagesPath": "C:\\Users\\gb141\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Basic-Crm\\obj\\",
+      "outputPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Basic-Crm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gb141\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8892,11 +8892,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj"
+            "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj"
             },
-            "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj"
+            "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj"
             }
           }
         }

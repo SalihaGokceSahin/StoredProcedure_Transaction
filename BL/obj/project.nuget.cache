@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iBG2opPEGSKz9HWN4EQ0irSazI85nQuV1hNTyA2Tg2kQF50yUXOr7rY9VbNhbTrQQ7wPVHlT2kZLhXdh5Dp/0Q==",
+  "dgSpecHash": "B4qbgnWcJFRpMRMuAIBTsqusf0Rbv4zUJb4vU5VFxHbSb3BgFhVq4HfWqm7QusMKYOWFZ0IzvgnU2tOAxgixgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\gb141\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

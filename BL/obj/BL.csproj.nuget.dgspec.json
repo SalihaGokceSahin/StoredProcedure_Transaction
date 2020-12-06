@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj": {}
+    "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj": {
+    "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\BL.csproj",
+        "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\gb141\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\BL\\obj\\",
+        "outputPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gb141\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj"
+              "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj"
+              "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj": {
+    "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\gb141\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gb141\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj"
+              "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj"
               }
             }
           }
@@ -135,14 +135,14 @@
         }
       }
     },
-    "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj": {
+    "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\gb141\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gb141\\source\\repos\\Basic-Crm\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\gb141\\Desktop\\Yeni klasör\\Basic-Crm\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gb141\\AppData\\Roaming\\NuGet\\NuGet.Config",

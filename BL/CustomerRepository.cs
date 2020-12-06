@@ -19,36 +19,46 @@ namespace BL
         public void Add<T>(T entity) where T:class
         {
             _context.Add(entity);
-            _context.SaveChangesAsync();
         }
+
 
         public void Delete<T>(T entity) where T:class
         {
             _context.Remove(entity);
-            _context.SaveChangesAsync();
         }
 
-        public Customer GetCustomerById(int id)
+        public Customer GetCustomerById(int Id)
         {
-            //return _context.Customers.FromSqlRaw<Customer>("spGetCustomerById{0}", id).ToList().FirstOrDefault();
+            return _context.Customers.FromSqlRaw<Customer>("EXECUTE dbo.spGetCustomerById {0}",Id).ToList().FirstOrDefault();
 
-            var customer = _context.Customers.Find(id);
-            return customer;
+            //var customer = _context.Customers.Find(id);
+            //return customer;
         }
 
         public IEnumerable<Customer> GetCustomers()
         {
-            var customers = _context.Customers.ToList();
+            //var customers = _context.Customers.ToList();
+            //return customers;
+
+            var customers = _context.Customers.FromSqlRaw<Customer>("spGetCustomers").ToList();
             return customers;
+
         }
-
-        //public void Update<T>(int id,T entity) where T:class
-        //{
-        //    var customer = _context.Customers.Find(id);
-
-
-        //}
-       
+        public void Create(Customer customer)
+        {
+            using (var transaction = _context.Database.BeginTransaction())
+            {
+                try
+                {
+                    _context.Customers.Add(customer);
+                    transaction.Commit();
+                }
+                catch (Exception)
+                {
+                    transaction.Rollback();
+                }
+            }
+        }
 
     }
 }

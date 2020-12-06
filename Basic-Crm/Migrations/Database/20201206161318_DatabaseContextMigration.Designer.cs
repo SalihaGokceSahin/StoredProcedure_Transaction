@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Basic_Crm.Migrations.Database
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20201113095813_SecondMigration")]
-    partial class SecondMigration
+    [Migration("20201206161318_DatabaseContextMigration")]
+    partial class DatabaseContextMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,6 +42,9 @@ namespace Basic_Crm.Migrations.Database
 
                     b.Property<string>("Surname")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserSession")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
